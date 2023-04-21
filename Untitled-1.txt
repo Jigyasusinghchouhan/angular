@@ -1,0 +1,12 @@
+<button (click)="getvaluebyparam(name:any)
+{
+    alert(name);
+
+    
+}
+
+strName='';
+GetValue(val:any)
+{
+    this.strName=val;
+}
